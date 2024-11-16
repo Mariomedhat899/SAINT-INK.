@@ -1,0 +1,47 @@
+.logo{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.my-w{
+    width: 60px;
+    height: 60px;
+}
+.bg-my{
+
+    background: linear-gradient(to right,gray,black);
+
+
+}
+
+.pos{
+
+    position: absolute;
+    top: 50;
+    bottom: 50;
+    left: 50;
+    right: 50;
+}
+.video{
+    position: relative; 
+    width: 100%; 
+    height: 100vh;
+    overflow: hidden;
+}
+#myVideo
+ {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     min-width: 100%;
+     min-height: 100%;
+     object-fit: cover;
+     width: auto;
+     height: auto;
+     z-index: -1;
+     transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+}
